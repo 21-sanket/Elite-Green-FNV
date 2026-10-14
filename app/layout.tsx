@@ -17,13 +17,20 @@ const notoDevanagari = Noto_Sans_Devanagari({
 });
 
 export const metadata: Metadata = {
-  title: "FNV Daily Ops",
+  title: "Elite Green FNV - Daily Ops",
   description: "Fruit & vegetable supply operations — order, buy, pack, deliver, sell.",
   manifest: "/manifest.json",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/icon-192.png",
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }
+    ],
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "FNV Ops",
+    title: "Elite FNV",
   },
 };
 
